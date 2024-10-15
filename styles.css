@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+    gap: 10px;
+}
+.grid-item{
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+
+}
+.colorChange{
+    background-color: red;
+}
