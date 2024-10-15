@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.getElementById("Change_button").addEventListener("click",()=>{
+document.getElementById("change_button").addEventListener("click",()=>{
     let blockId=document.getElementById("block_id").value;
     let colorId=document.getElementById("colour_id").value;
     
