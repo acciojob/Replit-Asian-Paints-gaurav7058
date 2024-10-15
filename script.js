@@ -1,7 +1,7 @@
 //your JS code here. If required.
 document.getElementById("Change_button").addEventListener("click",()=>{
     let blockId=document.getElementById("block_id").value;
-    let colorId=document.getElementById("color_id").value;
+    let colorId=document.getElementById("colour_id").value;
     
     let gridItem=document.querySelectorAll(".grid-item");
 
@@ -20,7 +20,7 @@ document.getElementById("Change_button").addEventListener("click",()=>{
 
       
 })
-document.getElementById("Reset").addEventListener("click",()=>{
+document.getElementById("reset_button").addEventListener("click",()=>{
     let gridItem=document.querySelectorAll(".grid-item");
     gridItem.forEach(item=>{
         item.style.backgroundColor="transparent";
